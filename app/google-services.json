@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "234521515994",
+    "project_id": "comcitysjackpotyscom",
+    "storage_bucket": "comcitysjackpotyscom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234521515994:android:73baa1c15d56597339d2e3",
+        "android_client_info": {
+          "package_name": "com.citys.jackpotys.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234521515994-86vabr95rrlrlqko6vnmhuma0imdflsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACcCGPBq0gBue0kBA-YogOk0Wib0QrGeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234521515994-86vabr95rrlrlqko6vnmhuma0imdflsm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
