@@ -12,11 +12,11 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
 fun Context.mobileAdsSetup2wlkzq1e () {
-    com.google.android.gms.ads.MobileAds.initialize(this)
-    CoroutineScope(kotlinx.coroutines.Dispatchers.IO).launch {
+    MobileAds.initialize(this)
+    CoroutineScope(Dispatchers.IO).launch {
         try {
             AID2wlkzq1e =
-                com.google.android.gms.ads.identifier.AdvertisingIdClient.getAdvertisingIdInfo(this@mobileAdsSetup2wlkzq1e)?.id
+                AdvertisingIdClient.getAdvertisingIdInfo(this@mobileAdsSetup2wlkzq1e)?.id
         } catch (e2wlkzq1e: Exception) {
 
         }

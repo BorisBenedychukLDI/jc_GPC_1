@@ -9,7 +9,6 @@ import android.net.http.SslError
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
-import android.util.Log
 import android.view.View
 import android.webkit.*
 import androidx.core.app.ActivityOptionsCompat
@@ -99,7 +98,7 @@ class WebActivity2wlkzq1e : AppCompatActivity() {
         }
     }
 
-    private fun WebActivity2wlkzq1e.circleCkecker2wlkzq1e() {
+    private fun circleCkecker2wlkzq1e() {
         lifecycleScope.launch {
             delay(500)
             splashAnimation2wlkzq1e()
@@ -227,11 +226,9 @@ class WebActivity2wlkzq1e : AppCompatActivity() {
             getSharedPreferences("SP_2wlkzg1e", MODE_PRIVATE).getString("Last_Page_2wlkzq1e", null)
                 ?.let {
                     loadUrl(it)
-                    Log.d("TEST_URL", it)
                     return@run
                 }
             loadUrl(parsedURL2wlkzq1e ?: return)
-
         }
 
         findViewById<SwipeRefreshLayout>(R.id.srl_2wlkzg1e)?.let {
