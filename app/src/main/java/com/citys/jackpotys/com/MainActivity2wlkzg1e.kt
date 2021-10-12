@@ -96,6 +96,7 @@ class MainActivity2wlkzg1e : AppCompatActivity() {
                     } else {
                         Uri.parse(fbBlackValue2wlkzq1e).buildUpon()
                             .appendQueryParameter("key", fbDefaultValue2wlkzq1e)
+                            .appendQueryParameter("bundle", packageName)
                             .appendQueryParameter("sub7", "Organic")
                             .toString()
                             .plus(
